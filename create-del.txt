@@ -1,8 +1,8 @@
 {"book found":{"author":"Delia Owens","book_id":1,"is_sold":true,"title":"Where the Crawdads Sing"}}
 
 #yeni değer eklemek için
-curl -H "Content-Type: application/json" -X POST -d '{"author":"Elif Safak","book_id":5,"is_sold":true,"title":"ASK"}' localhost/books
+curl -H "Content-Type: application/json" -X POST -d '{"author":"Elif Safak","book_id":5,"is_sold":true,"title":"ASK"}' localhost/books or http://<ec2-host-name>/books
 
 
 #var olan bir id yi silmek için
-curl -H "Content-Type: application/json" -X DELETE localhost/books/7
+curl -H "Content-Type: application/json" -X DELETE localhost/books/3 or http://<ec2-host-name>/books/3
